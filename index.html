@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="shortcut icon" href="./src/imagens/R.png" type="image/R">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+
+	<link rel="stylesheet" href="./src/css/reset.css">
+
+	<link rel="stylesheet" href="./src/css/estilos.css">
+
+
+	<link rel="stylesheet" href="./src/css/responsivo.css">
+
+	<title> The Walking Dead </title>
+</head>
+
+<body>
+	<div class="fundo-video">
+		<video class="video" autoplay loop muted>
+			<source src="./src/videos/1116745295.mp4" type="video/mp4" />
+		</video>
+	</div>
+
+	<header class="cabecalho">
+		<a>
+			<img class="logo" src="./src/imagens/arma.png" alt="image/arma.png" />
+		</a>
+		<nav>
+			<ul class="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="https://pt.wikipedia.org/wiki/The_Walking_Dead_(s%C3%A9rie_de_televis%C3%A3o)" target="_blank"
+					 id="detalhes-btn">Detalhes</a></li>
+
+
+			</ul>
+		</nav>
+	</header>
+	<main class="container">
+		<div class="informacoes">
+			<img class="imagem-titulo" src="./src/imagens/dead.png" alt="imagem-titulo" <p class="descricao">The Walking
+			Dead conta a história de um pequeno grupo de sobreviventes em um mundo pós-apocalíptico cheio de
+			mortos-vivos. A série apresenta a excessiva jornada do grupo liderado por Rick Grimes, em busca de
+			suprimentos e refúgios seguros.
+			</p>
+			<br>
+			<br>
+
+
+			<button class="botao-trailer">Veja o trailer</button>
+
+
+		</div>
+		<img class="mario" src="./src/imagens/niga.png" alt="imagem principal" />
+
+		<div class="modal">
+			<div class="conteudo-modal">
+				<span class="fechar-modal">X</span>
+				<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/qwOWJ8pPgk8"
+					title="trailer oficial" frameborder="1"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
+					allowfullscreen></iframe>
+
+
+			</div>
+		</div>
+	</main>
+
+	<script src=" ./src/js/index.js"></script>
+	
+
+</body>
+
+
+</html>
